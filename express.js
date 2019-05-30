@@ -13,5 +13,3 @@ app.use("/", (req, res, next) => {
 });
 
 app.listen(3000);
-
-// Handle requests to '/' and '/users' such that each request only has one handler/middleware that does something with it.
